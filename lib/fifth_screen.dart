@@ -115,7 +115,8 @@ class PopularMenu extends StatelessWidget {
                               color: Colors.orange,
                               borderRadius: BorderRadius.circular(16),
                             ),
-                            child: const Icon(Icons.fastfood, color: Colors.white),
+                            // child: const Icon(Icons.fastfood, color: Colors.white),
+                            child: ClipRRect(borderRadius: BorderRadius.circular(16), child: (Image.asset('assets/r1.jpg', fit: BoxFit.cover))),
                           ),
                           const SizedBox(width: 16),
                           Column(
@@ -155,7 +156,8 @@ class PopularMenu extends StatelessWidget {
                               color: Colors.blueGrey,
                               borderRadius: BorderRadius.circular(16),
                             ),
-                            child: const Icon(Icons.rice_bowl, color: Colors.white),
+                            // child: const Icon(Icons.rice_bowl, color: Colors.white),
+                            child: ClipRRect(borderRadius: BorderRadius.circular(16), child: (Image.asset('assets/r2.jpg', fit: BoxFit.cover))),
                           ),
                           const SizedBox(width: 16),
                           Column(
@@ -195,7 +197,8 @@ class PopularMenu extends StatelessWidget {
                               color: Colors.amber,
                               borderRadius: BorderRadius.circular(16),
                             ),
-                            child: const Icon(Icons.icecream, color: Colors.white),
+                            // child: const Icon(Icons.icecream, color: Colors.white),
+                            child: ClipRRect(borderRadius: BorderRadius.circular(16), child: (Image.asset('assets/r3.jpg', fit: BoxFit.cover))),
                           ),
                           const SizedBox(width: 16),
                           Column(
@@ -235,7 +238,8 @@ class PopularMenu extends StatelessWidget {
                               color: Colors.green,
                               borderRadius: BorderRadius.circular(16),
                             ),
-                            child: const Icon(Icons.eco, color: Colors.white),
+                            // child: const Icon(Icons.eco, color: Colors.white),
+                            child: ClipRRect(borderRadius: BorderRadius.circular(16), child: (Image.asset('assets/r4.jpg', fit: BoxFit.cover))),
                           ),
                           const SizedBox(width: 16),
                           Column(
@@ -275,7 +279,8 @@ class PopularMenu extends StatelessWidget {
                               color: Colors.brown,
                               borderRadius: BorderRadius.circular(16),
                             ),
-                            child: const Icon(Icons.dinner_dining, color: Colors.white),
+                            // child: const Icon(Icons.dinner_dining, color: Colors.white),
+                            child: ClipRRect(borderRadius: BorderRadius.circular(16), child: (Image.asset('assets/r5.jpg', fit: BoxFit.cover))),
                           ),
                           const SizedBox(width: 16),
                           Column(
